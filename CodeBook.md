@@ -2,9 +2,12 @@
 =======
 
 ##Description of Variables
-	* id_subject (num) Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+	
+	*id_subject (num) Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 	* id_activity (Factor) Activity name  
+
 The folowing features are the average of each variable for each activity and each subject, grouped by id_activity and id_subject
+
 	* tBodyAcc.std...X               (num)
 	* tBodyAcc.std...Y               (num)
 	* tBodyAcc.std...Z               (num)
@@ -84,6 +87,8 @@ The folowing features are the average of each variable for each activity and eac
 	* fBodyBodyGyroMag.meanFreq..    (num)  
 	* fBodyBodyGyroJerkMag.mean..    (num)  
 	* fBodyBodyGyroJerkMag.meanFreq..(num)  
+
+---
 
 You have to change your work directory where you downloaded the Github repository.Then you can run the file "run_analysis.R", this file execute all the task 
 1. Loading Data 
